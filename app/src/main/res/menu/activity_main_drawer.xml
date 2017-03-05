@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_business"
+            android:title="Business" />
+        <item
+            android:id="@+id/nav_Attraction"
+            android:icon="@drawable/ic_triper"
+            android:title="Attraction" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_home"
+            android:title="EXIT" />
+
+    </group>
+</menu>

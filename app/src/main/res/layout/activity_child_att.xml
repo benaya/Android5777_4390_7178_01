@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_child_att"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/nof5"
+
+    tools:context="com.example.benaya.application2.model.entities.ChildAtt">
+
+
+
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:id="@+id/tvidact"
+            android:textSize="15dp"
+
+            ></TextView>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:id="@+id/tvstartact"
+        android:textSize="18dp"
+        android:text=""
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignBaseline="@+id/tvstar"
+        android:layout_alignBottom="@+id/tvstar"
+        android:layout_toLeftOf="@+id/tvstar"
+        android:layout_toStartOf="@+id/tvstar">
+
+    </TextView>
+
+    <TextView
+    android:layout_width="150dp"
+    android:layout_height="37dp"
+    android:id="@+id/tvendact"
+    android:textSize="18dp"
+        android:layout_below="@+id/tvstar"
+        android:layout_toStartOf="@+id/tvstar">
+
+</TextView>
+
+    <TextView
+            android:layout_width="170dp"
+            android:layout_height="32dp"
+            android:id="@+id/tvtype"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvcountry"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_below="@+id/tvtype"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="72dp"
+        android:textColor="@android:color/holo_purple"></TextView>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvdescript"
+            android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/tvtype"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"></TextView>
+
+    <TextView
+           android:layout_width="120dp"
+           android:layout_height="32dp"
+           android:id="@+id/tvstar"
+           android:textSize="18dp"
+        android:text="start date: "
+           android:gravity="left"
+           android:textStyle="normal|bold"
+           android:textColor="@android:color/background_dark"
+           android:lineSpacingExtra="18sp"
+        android:layout_marginTop="67dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_below="@+id/tvcountry"
+        android:layout_alignLeft="@+id/tvtype"
+        android:layout_alignStart="@+id/tvtype">
+         </TextView>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:id="@+id/tvend"
+        android:text="end date:"
+        android:textSize="18dp"
+        android:layout_below="@+id/tvstartact"
+        android:layout_alignLeft="@+id/tvstar"
+        android:layout_alignStart="@+id/tvstar"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_dark">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:id="@+id/tvcost1"
+        android:textSize="20dp"
+        android:text="cost: $"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_marginRight="79dp"
+        android:layout_marginEnd="79dp"
+        android:layout_alignBottom="@+id/tvcost"
+        android:layout_alignRight="@+id/tvend"
+        android:layout_alignEnd="@+id/tvend"
+        android:layout_alignTop="@+id/tvcost">
+    </TextView>
+
+    <TextView
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:id="@+id/tvcost"
+            android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/tvendact"
+        android:layout_alignEnd="@+id/tvendact">
+       </TextView>
+
+</RelativeLayout>
